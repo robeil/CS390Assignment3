@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Prog3 {
 
-    public static int binarySearch(int[] array, int left, int right, int target){
+    public static boolean binarySearch(int[] array, int left, int right, int target){
 
         //sorting the array first
        Arrays.sort(array);
@@ -13,10 +13,11 @@ public class Prog3 {
        int middleArray = left + (right - left) /2;
 
         if(array.length == 0){
-            return -1;
+            return false;
         } else {
             if(target == array[middleArray]){
-                return array[middleArray];
+                System.out.println( array[middleArray]);
+                return true;
             }
             if(target < array[middleArray]){
                 return binarySearch(array,left, middleArray, target);

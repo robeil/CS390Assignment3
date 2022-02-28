@@ -2,7 +2,7 @@ package CS390Assignment3;
 
 public class Prog2 {
 
-    public static char minCharacter(String str,int index){
+    public char minCharacter(String str,int index){
         //assigning the min to the largest ASCII character which is ~ = 126
        char min = '~';
         if(index < str.length()) {
@@ -17,9 +17,9 @@ public class Prog2 {
         return min;
     }
 
-    public static void main(String[] args){
-
-   System.out.println(minCharacter("akel",0));
-
-    }
+//    public static void main(String[] args){
+//
+//   System.out.println(minCharacter("akel",0));
+//
+//    }
 }

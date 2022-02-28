@@ -1,4 +1,4 @@
-package CS390Asssignment3;
+package CS390Assignment3;
 
 import java.util.Arrays;
 
@@ -26,10 +26,10 @@ public class Prog3 {
             }
         }
     }
-    public static void main(String[] args) {
-
-        int[]array = {2,6,8,9,5,4,1,3,11};
-
-       System.out.println(binarySearch(array,0,array.length-1,9));
-    }
+//    public static void main(String[] args) {
+//
+//        int[]array = {2,6,8,9,5,4,1,3,11};
+//
+//       System.out.println(binarySearch(array,0,array.length-1,9));
+//    }
 }

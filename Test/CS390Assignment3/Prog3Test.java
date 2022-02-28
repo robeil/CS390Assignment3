@@ -1,4 +1,4 @@
-package CS390Asssignment3;
+package CS390Assignment3;
 
 import org.junit.jupiter.api.Test;
 
@@ -12,7 +12,7 @@ class Prog3Test {
         int[]array = {2,6,8,9,5,4,1,3,11};
 
         boolean calling = p3.binarySearch(array, 0, array.length -1, 9);
-        boolean checking = true;
+        boolean checking = false;
 
         assertEquals(checking,calling);
     }

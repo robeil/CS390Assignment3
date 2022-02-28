@@ -1,4 +1,4 @@
-package CS390Asssignment3;
+package CS390Assignment3;
 
 public class Prog1 {
 
